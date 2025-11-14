@@ -34,25 +34,16 @@ brew install qt
 python -m pip install PyQt5
 ```
 
-## Files you’ll care about
+## Files
 - `faceauth_app.py` — GUI front-end (PyQt5).
 - `save_face.py` — helper to save a reference face.
 - `verify_face.py` — face verification view.
 - `liveness_check.py` — eye + hand liveness logic.
 - `requirements.txt` — Python packages used.
 
-Runtime artifacts (don’t commit these):
-- `saved_face.npy` — saved face encoding created by the app.
-- `saved_face_preview.jpg` — saved preview image.
-
 ## Tips & notes
 - Keep large model files (e.g. `shape_predictor_68_face_landmarks.dat`) out of git — add them to `.gitignore` and load them at runtime instead.
 - If you get `ModuleNotFoundError: No module named 'PyQt5'`, activate the venv and run `python -m pip install PyQt5`.
-- If a `git push` fails because of large objects, use Git LFS for binaries or remove large blobs from history with `git-filter-repo` or BFG.
-
-## Make it yours
-- Tweak the UI text, change the timers, or swap liveness checks for something else (smile detection, head nod).
-- Add a tiny web UI or an API to integrate with other tools.
 
 ## License
 This repo uses the MIT license
