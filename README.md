@@ -1,6 +1,6 @@
 # Face Authentication & Liveness — Personal Project
 
-A small, fun desktop app for experimenting with face verification and a simple liveness routine (eye closure + peace-sign). Built from OpenCV, dlib/face_recognition, MediaPipe and PyQt5. This repo is a personal demo — feel free to fork and tinker.
+A small, fun desktop app for experimenting with face verification and a simple liveness routine (eye closure + peace-sign). Built from OpenCV, dlib/face_recognition, MediaPipe and PyQt5.
 
 ## What it does
 - Step 1: Upload and save a reference face (encoding + preview).
@@ -55,7 +55,4 @@ Runtime artifacts (don’t commit these):
 - Add a tiny web UI or an API to integrate with other tools.
 
 ## License
-This repo uses the MIT license — use it or remix it for personal projects.
-
----
-Happy tinkering. If you want, I can add a short GIF or screenshots to the README next.
+This repo uses the MIT license
