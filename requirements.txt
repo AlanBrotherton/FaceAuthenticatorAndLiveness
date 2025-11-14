@@ -1,0 +1,8 @@
+face_recognition
+opencv-python
+dlib
+numpy
+PyQt5
+imutils
+mediapipe
+scipy
